@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "Tencent X5 WebView."
   s.description  =  "Tencent X5 WebView based on WKWebView."
-  s.ios.deployment_target = '9.0'
   s.homepage     = "https://github.com/paozhuanyinyu/TBSPlusDemo"
   s.source       = {:git =>"https://github.com/paozhuanyinyu/TBSPlusDemo.git",:branch =>  'master'}
   s.resources    =  "Libraries/TBSPlus.bundle"
@@ -69,7 +68,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
