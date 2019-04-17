@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.description  =  "Tencent X5 WebView based on WKWebView."
   s.ios.deployment_target = '9.0'
   s.homepage     = "https://github.com/paozhuanyinyu/TBSPlusDemo"
-  s.source       = {:git =>"https://github.com/paozhuanyinyu/TBSPlusDemo",:tag => s.version }
+  s.source       = {:git =>"https://github.com/paozhuanyinyu/TBSPlusDemo.git",:tag => s.version }
   s.resources    =  "Libraries/TBSPlus.bundle"
   s.frameworks   =  'WebKit'
   s.libraries    = 'c++','sqlite3.0'
