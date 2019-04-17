@@ -17,10 +17,11 @@ Pod::Spec.new do |s|
 
   s.name         = "TBSPlusSDK"
   s.version      = "0.0.1"
-  s.summary      = "A short description of TBSPlusSDK."
+  s.summary      = "Tencent X5 WebView."
+  s.description  =  "Tencent X5 WebView based on WKWebView."
   s.ios.deployment_target = '9.0'
   s.homepage     = "https://github.com/paozhuanyinyu/TBSPlusDemo"
-  s.source       = {:git =>"https://github.com/paozhuanyinyuTBSPlusSDK",:tag => s.version }
+  s.source       = {:git =>"https://github.com/paozhuanyinyu/TBSPlusDemo",:tag => s.version }
   s.resources    =  "Libraries/TBSPlus.bundle"
   s.frameworks   =  'WebKit'
   s.libraries    = 'c++','sqlite3.0'
@@ -45,8 +46,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT (example)"
+   s.license      = { :type => "Apache-2.0", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,7 +87,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/TBSPlusSDK.git", :tag => "#{s.version}" }
+  #s.source       = { :git => "http://EXAMPLE/TBSPlusSDK.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,8 +98,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+ # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+ # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
