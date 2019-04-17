@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.resources    =  "Libraries/TBSPlus.bundle"
   s.frameworks   =  'WebKit'
   s.libraries    = 'c++','sqlite3.0'
-  s.vendored_frameworks = 'Libraries/TBSPlusSDK.framework'
+  s.vendored_frameworks = 'Libraries/TBSPlus.framework'
   s.requires_arc = true
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
